@@ -1,0 +1,95 @@
+body{
+    font-family: 'Arvo', serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Signika', sans-serif;
+}
+
+#inf{
+    margin-bottom: 50px;
+    color:rgba(53, 49, 238, 0.904) ;
+    padding-left: 10%;
+}
+.container{
+    display: flex;
+  padding-left: 10%;
+  padding-bottom: 5%;
+}
+.half-width img:hover{
+    transform: scale(1.3);
+    overflow: hidden;
+    transform: transform 2s ease-in-out;
+}
+.button{
+    display: inline-flex;
+    text-decoration: none;
+    background-image: linear-gradient(white,tomato);
+    border-radius: 5px;
+    padding: 10px 40px;
+    color:white;
+    font-weight: 700;
+    font-family:'Quicksand',sans-serif ;
+}
+.button:hover{
+    display: block;
+    transform: scale(1.2);
+}
+.half-width{
+    width:50%;
+}
+.half-width img{
+    width: 35%;
+}
+ #hr{
+ width: 80%; 
+} 
+.collect{
+    padding-left: 12%;
+    padding-bottom: 1%;
+    color:rgba(53, 49, 238, 0.904) ;
+}
+.packeges{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-column-gap:30px;
+    padding-left: 10%;
+    position: absolute;
+    padding-bottom: 10%;
+    
+}
+.packege{
+    border: 20px;
+    border-radius: 10px;
+    width: 329px;
+    height: 476px;
+    left: 196px;
+    top: 1035px;
+    background-color:whitesmoke;
+    padding-left: 10px;
+    margin: 10%;
+
+}
+.packege-details{
+    padding-left: 15%;
+}
+.packege img:hover{
+    display: block;
+    transform: scale(1.2);
+    transition: transform 2s ease-in-out;
+
+}
+.packege .packege-banner img{
+    width: 224px;
+    height: 104;
+    padding-top: 10px;
+    margin: 15px;
+    overflow: hidden;
+}
+.fa-star{
+    font-size: 12px;
+}
+.fa-star.filled{
+    color: rgb(235, 193, 87);
+}
+.fa-star.empty{
+    color: #AEAEAE;
+}
